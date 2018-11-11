@@ -17,7 +17,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Dan Torres
+            Daniel Torres
           </a>
         </header>
       </div>

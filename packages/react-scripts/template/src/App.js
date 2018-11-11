@@ -17,9 +17,10 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Daniel Torres is the greatest.
-            <button type="button">Click this</button>
-          </a>
+            <div id="myDiv">Daniel Torres is the greatest.</div>
+            </a>
+            <button type="button" onClick="showImage()">Click this</button>
+          
         </header>
       </div>
     );

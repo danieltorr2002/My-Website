@@ -17,7 +17,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Daniel Torres
+            Daniel Torres is the greatest.
           </a>
         </header>
       </div>

@@ -18,6 +18,7 @@ class App extends Component {
             rel="noopener noreferrer"
           >
             Daniel Torres is the greatest.
+            <button type="button">Click this</button>
           </a>
         </header>
       </div>

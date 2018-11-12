@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import 'Functions.js';
 
 class App extends Component {
   render() {
@@ -18,12 +19,16 @@ class App extends Component {
             rel="noopener noreferrer"
           >
           </a>
-            <div id="myDiv" visibility="hidden">Daniel Torres is the greatest.</div>
-            <button type="button" onClick="showImage()">Click this</button>
-            
           
         </header>
       </div>
+      <body>
+
+      <script src="Functions.js">
+      <div id="myDiv" visibility="hidden">Daniel Torres is the greatest.</div>
+      <button type="button" onClick="showImage()">Click this</button>
+    </script>
+    </body>
     );
   }
 }

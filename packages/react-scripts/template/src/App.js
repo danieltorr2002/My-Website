@@ -6,29 +6,14 @@ import 'Functions.js';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-          </a>
-          
-        </header>
-      </div>
+      <div>
+      <head>
+        <strong>Hi i am Dan :)</strong>
+      </head>
       <body>
-
-      <script src="Functions.js">
-      <div id="myDiv" visibility="hidden">Daniel Torres is the greatest.</div>
-      <button type="button" onClick="showImage()">Click this</button>
-    </script>
-    </body>
+        
+      </body>
+      </div>
     );
   }
 }
